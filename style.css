@@ -1,0 +1,29 @@
+.card {
+    background-color: burlywood;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 16px;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #A9A9A9; /* цвет фона при наведении */
+};
+
+.profile-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+}
